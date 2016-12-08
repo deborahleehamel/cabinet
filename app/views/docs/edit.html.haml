@@ -1,6 +1,6 @@
 .wrapper_with_padding
-%h1 EditDoc!
+  #docs.clearfix
+    %h1 Edit this doc
+    = render 'form'
 
-= render 'form'
-
-= link_to "Cancel", docs_path
+    = link_to "Cancel", docs_path
